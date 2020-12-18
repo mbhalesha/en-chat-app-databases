@@ -1,0 +1,43 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 50em;
+  margin: auto;
+}
+
+.messages {
+  padding: 8px;
+  background: #f4f4f4;
+  margin: 8px 0px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.messages > div {
+  padding: 8px;
+}
+
+.messages > div > span {
+  color: blue;
+}
+
+.messages > div > p {
+  color: #191919;
+  margin: 0;
+  padding: 4px;
+}
+
+.username {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+}
+
+.message {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+}

@@ -1,0 +1,32 @@
+<!-- In this workshop we'll be building a real-time chat app using Firebase, a realtime database for web applications! 
+
+You'll learn: the relationship between HTML, CSS, JS, how to store data in localStorage, and how to interface with a database to build complex web applications. 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Real-time Chat App</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div id="messages" class="messages">
+</div>
+<input id="username" class="username" placeholder="username" />
+<input id="message" class="message" placeholder="message">
+
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js">
+	</script>
+	<script src="script.js">
+	</script>
+</body>
+
+</html>
